@@ -4,15 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace baitapthuchanh
-{ 
+namespace ConsoleApp4
+{
     class Program
     {
         static void Main(string[] args)
         {
-            doantau tau1 = new doantau();
-            tau1.nhaptt();
-            tau1.intau();
+            sachgiaokhoa a = new sachgiaokhoa();
+            a.In();
+            sachgiaokhoa b = new sachgiaokhoa();
+            b.nhap();
+            b.In();
             Console.ReadLine();
         }
     }
